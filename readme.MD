@@ -18,12 +18,14 @@ optimist
 
 querystring
 
-redux
-
 autoprefixer
 
 injecting
 
 regeneratorRuntime
 
+request
+
 pjax
+
+redux
