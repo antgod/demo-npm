@@ -10,4 +10,7 @@ var a=querystring.parse(u.query);
 
 console.log(a);
 
-console.log(querystring.stringify(a));
+console.log(url.format({
+    pathname:'/aaa',
+    search:a
+}) );
