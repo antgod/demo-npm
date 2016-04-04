@@ -14,3 +14,10 @@ npm config set registry https://registry.npm.taobao.org
 3.查看npm
 信息查看：npm info underscore
 镜像查看：npm config list
+
+4.
+npm install/uninstall:安装/卸载
+npm update:把本地所有包更新到最新
+npm dedupe:重新计算依赖关系，然后将包结构整理得更合理。
+
+5.npm dist-tags ls react:直接列出react发布过哪些tag
