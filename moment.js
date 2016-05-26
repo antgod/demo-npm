@@ -18,5 +18,8 @@ function formatDate(date) {
 }
 
 
-console.log(Date.now());
+console.log(moment('1970-01-01').format());
 console.log(formatDate('2016-05-20 17:04'));
+console.log(moment.unix(1318781876).format('YYYY-HH-DD HH:mm:ss'))
+console.log(moment.duration(999000).asSeconds());
+console.log(moment.duration().asMinutes());
