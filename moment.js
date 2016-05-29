@@ -23,3 +23,6 @@ console.log(formatDate('2016-05-20 17:04'));
 console.log(moment.unix(1318781876).format('YYYY-HH-DD HH:mm:ss'))
 console.log(moment.duration(999000).asSeconds());
 console.log(moment.duration().asMinutes());
+
+//console.log(moment.max(moment(), moment().add(1,'year')).format('YYYY-MM-DD'))
+console.log( moment.max(moment('2016-05-27'), moment().add(1, 'hour')).format('YYYY-MM-DD'))
