@@ -6,6 +6,7 @@
     "composition": "^2.3.0",
     "cookies": "^0.6.1",
     "csv": "^0.4.6",
+    "dataton": "^1.6.7",
     "debug": "^2.2.0",
     "delegates": "^1.0.0",
     "excel-export": "^0.5.1",
