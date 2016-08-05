@@ -23,6 +23,7 @@
     "retry": "^0.9.0",
     "statuses": "^1.2.1",
     "stream": "0.0.2",
+    "tiny-cookie": "^0.5.5",
     "vinyl-fs": "^2.4.3"
   }
 }
